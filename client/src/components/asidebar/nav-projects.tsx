@@ -131,7 +131,7 @@ export function NavProjects() {
 
           {!isPending && projects?.length === 0 ? (
             <div className="pl-3">
-              <p className="text-xs text-muted-foreground">
+              <p className="text-xs text-white text-muted-foreground">
                 There is no projects in this Workspace yet. Projects you create
                 will show up here.
               </p>
