@@ -9,6 +9,7 @@ import {
   HelpCircle,
   Timer,
   View,
+  AlertCircle,
 } from "lucide-react";
 
 const statusIcons = {
@@ -23,6 +24,7 @@ const priorityIcons = {
   [TaskPriorityEnum.LOW]: ArrowDown,
   [TaskPriorityEnum.MEDIUM]: ArrowRight,
   [TaskPriorityEnum.HIGH]: ArrowUp,
+  [TaskPriorityEnum.URGENT]: AlertCircle,
 };
 
 export const statuses = transformOptions(
